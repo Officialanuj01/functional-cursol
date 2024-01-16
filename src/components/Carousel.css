@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+}
+
+.image {
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 4vw;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.subtitle{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2vw;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.next{
+    position: absolute;
+    top: 50vh;
+    right: 30vw;
+    color: white;
+    height: 4vh;
+}
+.prev{
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    color: white;
+    z-index: 1;
+
+}
